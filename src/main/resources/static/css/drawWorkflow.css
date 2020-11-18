@@ -1,0 +1,341 @@
+
+
+.top_bar{
+    /*width : 99%;*/
+    height : 80px;
+    border : solid 1px greenyellow;
+    /*height: 100%;*/
+}
+
+.panel{
+    border : solid 1px greenyellow;
+    margin-top: 2px;
+    height: 90%;
+}
+
+.operate_node{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+/*montage节点样式start*/
+.mProjectPP{
+    background-color: #FFFB00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mDiffFit{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mConcatFit{
+    background-color: #FF8467;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mBgModel{
+    background-color: #FFB300;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mBackground{
+    background-color: #AED36D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mImgTbl{
+    background-color: #BCE7FF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mAdd{
+    background-color: #D883D2;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mShrink{
+    background-color: #CACACA;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mJPEG{
+    background-color: #E6F094;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*montage节点样式end*/
+
+/*cybershake节点样式start*/
+.extsgt{
+    background-color: #FFFB00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.seissyn{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.zipseis{
+    background-color: #FF8467;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pvco{
+    background-color: #FFB300;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.zippsa{
+    background-color: #AED36D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*cybershake节点样式end*/
+
+/*Epigenomics节点样式start*/
+.fastQSplit{
+    background-color: #FFFC00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.filterContams{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.sol2sanger{
+    background-color: #FF8868;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.fastq2bfq{
+    background-color: #FFB400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.map{
+    background-color: #AFD46C;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mapMerge{
+    background-color: #BDE8FF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.maqIndex{
+    background-color: #D882D4;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.pileup{
+    background-color: #CBCBCB;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/*Epigenomics节点样式end*/
+
+/*inspiral节点样式start*/
+.tmpltbank{
+    background-color: #FFFC00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.inspiral{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.thinca{
+    background-color: #FF8868;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.trigbank{
+    background-color: #FFB400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+/*inspiral节点样式end*/
+
+/*sipht节点样式start*/
+.patser{
+    background-color: #FFFC00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.srna{
+    background-color: #FF8868;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.synteny{
+    background-color: #D7974F;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.paralogues{
+    background-color: #9D5816;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.transterm{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.motif{
+    background-color: #D882D4;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.concate{
+    background-color: #FFB400;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.candidate{
+    background-color: #D7C4AD;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.annotate{
+    background-color: #4DD492;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.findterm{
+    background-color: #AFD46C;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.blast{
+    background-color: #CBCBCB;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ffnparse{
+    background-color: #BDE8FF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.qrna{
+    background-color: #F44638;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.transfer{
+    background-color: #A72FDC;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/*sipht节点样式end*/
+.sameline{
+    text-align: center;
+    width: 80px;
+    float: left;
+    margin-left: 30px;
+}
+
+/*.sameline_sipht{
+    text-align: center;
+    width: 80px;
+    float: left;
+    margin-left: 30px;
+}*/
+
+.buttons{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#del img{
+    margin-top: 15px;
+    width: 50%;
+    height: 60%;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: solid 1px red;
+}
+
+.editDiv{
+    width : 100px;
+    height: 80px;
+    border: solid 1px darkgray;
+    border-radius:15px 15px 15px 15px;
+}
+
+.editBtn{
+    width: 100px;
+    height: 40px;
+    border-radius:15px 15px 0px 0px;
+}
+
+.delBtn{
+    width: 100px;
+    height: 40px;
+    /*margin-top: 6px;*/
+    border-radius:0px 0px 15px 15px;
+}
+
+.operation{
+    float: right;
+}
+
+
+
+.select_div{
+    margin-top: 20px;
+}
+
+.algo_select{
+    width:150px;
+    height: 40px;
+    margin-left: 0px;
+
+}

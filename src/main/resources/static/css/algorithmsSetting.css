@@ -1,0 +1,130 @@
+body {
+	border-top: 1px solid #aab9c3;
+	/*margin-bottom: 10px;*/
+	/*background: red;*/
+}
+.main {
+	width: 580px;
+	height: 280px;
+	margin: 0 auto;
+}
+
+.left {
+	/*margin: 20px 5px;*/
+	float: left;
+	width: 200px;
+	height: 475px;
+	background-color: #F0F0F0;
+	/*font-family:"微软雅黑";*/
+	/*border-top-left-radius: 25px;*/
+	/*border-bottom-left-radius: 25px;*/
+	/* border-radius: 25px; */
+}
+
+.right {
+	/*margin: 20px 5px;*/
+	float: right;
+	width: 340px;
+	height: 450px;
+	background-color: #fff;
+	/*border-top-right-radius: 25px;*/
+	/*border-bottom-right-radius: 25px;*/
+	/* border-radius: 25px; */
+}
+/*.left,.right{*/
+	/*box-shadow: 10px 10px 5px #888888;*/
+/*}*/
+
+.left>ul>li {
+	font-size: 1.2em;
+	list-style: none;
+}
+
+.left .top li {
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*.left .bottom li a {
+	padding-left: 70px;
+}*/
+
+.left .button {
+	padding: 60px;
+	/*font-family:"微软雅黑";*/
+}
+
+.right .top tr {
+	list-style: none;
+	/* padding-left: 30px; */
+	padding-top: 20px;
+}
+
+.right .top input {
+	width: 45%;
+	display: unset;
+	margin-left: 40px;
+}
+
+.al_div {
+	height: 400px;
+	/*font-family:"微软雅黑";*/
+}
+
+.right table td {
+	width: 200px;
+	padding: 8px 0px 8px 3px;
+}
+.right table{
+	margin-left: 16px;
+}
+.right /*.bottom*/{
+	text-align: center;
+	margin:20px 20px;
+	height: 50px;
+	float: bottom;
+}
+.presentation {
+	cursor: pointer;
+}
+.current {
+	background: #fff;
+	font-weight: 700;
+}
+
+.paramer_pso {
+	width:60px;
+	heigth:30px;
+	border-radius: 15px 15px 15px 15px;
+	border-style:none;
+	outline: none;
+	text-indent: 10px;
+	border: 1px solid #DBDBDB;
+	color:#9ca0a6;
+}
+
+.auto-fill-input {
+    width:60px;
+    heigth:30px;
+    border-radius: 15px 15px 15px 15px;
+    border-style:none;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid #DBDBDB;
+    color:#9ca0a6;
+}
+
+.hidden {
+	display: none;
+}
+
+.add_btn {
+	position: absolute;
+	bottom: 100px;
+}
+#export_btn,#import-btn{
+	position: relative;
+	top: -80%;
+}

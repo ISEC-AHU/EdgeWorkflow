@@ -1,0 +1,63 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    /*border: 1px solid #aab9c3;*/
+    border-top: 1px solid #aab9c3;
+}
+.chooseInput {
+    margin-top: -5px;
+    height: 38px;
+    border-radius: 19px 19px 19px 19px;
+    margin-left: 18px;
+    float: left;
+    border-style:none;
+    outline: none;
+    text-indent: 5px;
+    border: 1px solid #DBDBDB;
+    color:#9ca0a6;
+
+}
+button {
+    height: 20px;
+    font-size: 10px;
+}
+.submit {
+    width:80px;
+    height:20px;
+    position:absolute;
+    top:16px;
+    left:292px;
+    /*text-align: center;*/
+    /*text-indent: -10px;*/
+    /*display:block;*/
+}
+.chosen-file {
+    /*margin-top: 20px;*/
+    margin-left: 20px;
+    margin-top:5px;
+    float: left;
+}
+.line1 {
+    margin-top: 20px;
+    height: 40px;
+    width: 350px;
+    float: top;
+}
+.line2 {
+    width: 270px;
+    float: top;
+    margin-left:100px;
+    margin-top:30px;
+}
+.li-img {
+    width: 20px;
+    height: 20px;
+    /*margin-top: 40px;*/
+}
+li {
+    cursor: pointer;
+    list-style: none;
+    height: 20px;
+    margin-top: 10px;
+}

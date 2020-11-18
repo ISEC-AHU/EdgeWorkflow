@@ -1,0 +1,55 @@
+
+.top_bar{
+    width : 100%;
+    height : 80px;
+    border : solid 1px greenyellow;
+    /*height: 100%;*/
+}
+
+.operate_node{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.sameline{
+    text-align: center;
+    width: 100px;
+    float: left;
+}
+
+.ExtractSGT{
+    background-color: #FFFB00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.SeismogramSynthesis{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ZipSeis{
+    background-color: #FF8467;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.PeakValCalcOkaya{
+    background-color: #FFB300;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.ZipPSA{
+    background-color: #AED36D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.panel{
+    border : solid 1px greenyellow;
+    margin-top: 2px;
+    height: 80%;
+}

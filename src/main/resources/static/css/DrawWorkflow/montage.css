@@ -1,0 +1,99 @@
+
+
+.top_bar{
+    width : 100%;
+    height : 80px;
+    border : solid 1px greenyellow;
+    /*height: 100%;*/
+}
+
+.panel{
+    border : solid 1px greenyellow;
+    margin-top: 2px;
+    height: 80%;
+}
+
+.operate_node{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.mProjectPP{
+    background-color: #FFFB00;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mDiffFit{
+    background-color: #00CAFF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mConcatFit{
+    background-color: #FF8467;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mBgModel{
+    background-color: #FFB300;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mBackground{
+    background-color: #AED36D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mImgTbl{
+    background-color: #BCE7FF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mAdd{
+    background-color: #D883D2;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mShrink{
+    background-color: #CACACA;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.mJPEG{
+    background-color: #E6F094;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.sameline{
+    text-align: center;
+    width: 100px;
+    float: left;
+}
+
+.buttons{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#del img{
+    margin-top: 15px;
+    width: 50%;
+    height: 60%;
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: solid 1px red;
+}

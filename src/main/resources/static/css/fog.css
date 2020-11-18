@@ -1,0 +1,123 @@
+body {
+    background: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    /*border: 1px solid #aab9c3;*/
+    border-top: 1px solid #aab9c3;
+}
+.line-div {
+    height: 170px;
+    width: 960px;
+    margin-left: 10px;
+    background: white;
+}
+.title-div {
+    height: 30px;
+    width: auto;
+    font-weight: bold;
+    text-align: center;
+}
+.cloud-container-div {
+    height: 130px;
+    /*background: darkcyan;*/
+    background: #61a6ef;
+    overflow-y: scroll;/*y轴滚动*/
+}
+
+/*隐藏div的滚动条*/
+.cloud-container-div::-webkit-scrollbar{
+    width:0;
+}
+
+.disabled-img {
+    height: 120px;
+    margin-left: 30px;
+}
+.fog-container-div {
+    height: 130px;
+    /*background: #C2BE9E;*/
+    background: #61a6ef;
+    overflow-y: scroll;/*y轴滚动*/
+}
+/*隐藏div的滚动条*/
+.fog-container-div::-webkit-scrollbar{
+    width:0;
+}
+.mobile-container-div {
+    height: 130px;
+    background: #61a6ef;
+    overflow-y: scroll;/*y轴滚动*/
+}
+/*隐藏div的滚动条*/
+.mobile-container-div::-webkit-scrollbar{
+    width:0;
+}
+.container-div {
+    height: 120px;
+    width: 185px;
+    background: white;
+    float: left;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+.cloud-img {
+    width: 75px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+.cloud-div {
+    width: 90px;
+    float: left;
+    margin-left: 5px;
+}
+.host-div {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mips-div {
+    margin-top: 25px;
+    width: 100px;
+    float: left;
+}
+.cost-div {
+    margin-top: 5px;
+    width: 100px;
+    float: left;
+}
+.mips-title {
+    width: 40px;
+    float: left;
+}
+.cost-title {
+    width: 40px;
+    float: left;
+}
+input {
+    width:50px;
+    float: left;
+}
+.mobile-img {
+    width: 37px;
+    height: 78px;
+    margin-left: 30px;
+    margin-top: 15px;
+    float: left;
+}
+.import-btn {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.cloud-div input {
+    border-radius: 10px 10px 10px 10px;
+    border-style:none;
+    outline: none;
+    text-indent: 5px;
+    border: 1px solid #DBDBDB;
+    /*color:#9ca0a6;*/
+}
