@@ -37,19 +37,7 @@ public class DockerLink {
     private static String password = "root";
     private static double cpu_percent = 1.0;
 
-    //fogworkflow 47.98.222.243
-    /*private static String host = "47.98.222.243";
-    private static int port = 22;
-    private static String user = "root";
-    private static String password = "ccis@2020";
-    private static double cpu_percent = 1.0;*/
 
-    //fogworkflowsim 47.74.84.61
-    /*private static String host = "47.74.84.61";
-    private static int port = 22;
-    private static String user = "root";
-    private static String password = "ccis@2019";
-    private static double cpu_percent = 1.0;*/
 
 
     public static void main(String[] args) throws IOException, JSchException {
