@@ -17,10 +17,11 @@ Please check the `improv` branch for latest changes. Master branch has been left
 
 * Create a Java project in Eclipse.
 * Inside the project directory, initialize an empty Git repository with the following command
+* we provide a Web UI so that users can access EdgeWorkflowReal remotely and run their created edge workflow applications on our provided computing infrastructure. Web URL: http://47.98.222.243/EdgeWorkflowReal
 ```
 git init
 ```
-* Add the Git repository of FogWorkflowSim as the `origin` remote.
+* Add the Git repository of EdgeWorkflowReal as the `origin` remote.
 ```
 git remote add origin https://github.com/ISEC-AHU/EdgeWorkflowReal
 ```
