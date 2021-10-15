@@ -33,7 +33,7 @@ git pull origin master
 
 ## The Details of the Offloading and Scheduling Algorithms
 
-We introduce the details of the task offloading and scheduling algorithms supported in EdgeWorkflow currently. In the edge computing environment, given the three different layers of resources, viz. end device layer, Edge server layer and cloud server layer, a task offloading strategy is required first to determine which level or levels of resources will be used for task computation, before the task scheduling algorithm determines the order of tasks running on the allocated resources. (PDF link: ).
+We introduce the details of the task offloading and scheduling algorithms supported in EdgeWorkflow currently. In the edge computing environment, given the three different layers of resources, viz. end device layer, Edge server layer and cloud server layer, a task offloading strategy is required first to determine which level or levels of resources will be used for task computation, before the task scheduling algorithm determines the order of tasks running on the allocated resources. (PDF link: https://github.com/ISEC-AHU/EdgeWorkflow/blob/649f920d984f1fe7fe659c63c418d573ceb1f1b3/The%20Details%20of%20the%20Offloading%20and%20Scheduling%20Algorithms.pdf).
 
 # References
 1.	X. Liu, L. Fan, J. Xu, X. Li, L. Gong, J. Grundy and Y. Yang, “FogWorkflowSim: an automated simulation toolkit for workflow performance evaluation in fog computing,” in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019, pp. 1114-1117.
