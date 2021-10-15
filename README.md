@@ -1,4 +1,4 @@
-# EdgeWorkflowReal
+# EdgeWorkflow
 An Edge Computing based Workflow Execution Engine for Smart Systems
 # Developer
  * Developer organization:
@@ -13,23 +13,27 @@ An Edge Computing based Workflow Execution Engine for Smart Systems
 ## IMPORTANT
 Please check the `improv` branch for latest changes. Master branch has been left intact until complete testing.
 
-## How to run EdgeWorkflowReal ?
+## How to run EdgeWorkflow ?
 
 * Create a Java project in Eclipse.
 * Inside the project directory, initialize an empty Git repository with the following command
-* we provide a Web UI so that users can access EdgeWorkflowReal remotely and run their created edge workflow applications on our provided computing infrastructure. Web URL: http://47.98.222.243/EdgeWorkflowReal
+* we provide a Web UI so that users can access EdgeWorkflow remotely and run their created edge workflow applications on our provided computing infrastructure. Web URL: http://47.98.222.243/EdgeWorkflow
 ```
 git init
 ```
-* Add the Git repository of EdgeWorkflowReal as the `origin` remote.
+* Add the Git repository of EdgeWorkflow as the `origin` remote.
 ```
-git remote add origin https://github.com/ISEC-AHU/EdgeWorkflowReal
+git remote add origin https://github.com/ISEC-AHU/EdgeWorkflow
 ```
 * Pull the contents of the repository to your machine.
 ```
 git pull origin master
 ```
 * Run the example files (e.g. MainUI.java) to get started.
+
+## The Details of the Offloading and Scheduling Algorithms
+
+We introduce the details of the task offloading and scheduling algorithms supported in EdgeWorkflow currently. In the edge computing environment, given the three different layers of resources, viz. end device layer, Edge server layer and cloud server layer, a task offloading strategy is required first to determine which level or levels of resources will be used for task computation, before the task scheduling algorithm determines the order of tasks running on the allocated resources. (PDF link: ).
 
 # References
 1.	X. Liu, L. Fan, J. Xu, X. Li, L. Gong, J. Grundy and Y. Yang, “FogWorkflowSim: an automated simulation toolkit for workflow performance evaluation in fog computing,” in Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019, pp. 1114-1117.
