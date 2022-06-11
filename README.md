@@ -108,9 +108,6 @@ The details of importing jar packages are as follows
 source ***.sql
 ~~~
 
-
-
-## Deploy complete start project command:
 ### How to run EdgeWorkflow ?
 
 * Create a Java project in Eclipse.
@@ -130,7 +127,7 @@ We often use the `nohup command &` command form to launch background programs su
 
 +++
 
-# Project introduction
+# Introduction
 
 ## The main interface
 
@@ -186,11 +183,11 @@ Workflow task binding mode is divided into **Standard Mode** and **Custom Mode**
   * **Levenshtein Algorithm**: The Levenshtein distance also called the Edit distance, is the minimum number of operations required to transform one string to another. Editing operations include replacing one character with another, inserting a character, and deleting a character. In general, the smaller the edit distance, the greater the similarity of the two strings. Please refer to the: [Java Program to Implement Levenshtein Distance Computing Algorithm](https://www.geeksforgeeks.org/java-program-to-implement-levenshtein-distance-computing-algorithm/?ref=gcse)
   * **SelectSort Algorithm**: Selection sort is an in-place comparison sorting algorithm. It has an O(n^2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort. Selection sort is noted for its simplicity and has performance advantages over more complicated algorithms in certain situations, particularly where auxiliary memory is limited. Please refer to the: [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
 
-* Custom mode
+* Custom Mode
 
   Use `Task Binding Mode` switch to **Custom Mode**, and then click **each ** workflow task in the DAG diagram to code it. **Note:** In the DAG graph, for a computational task with parent-child relationship, this task needs to receive input parameters from the precursor node and output parameters to the successor node. This computation task only processes the input data, and the properties and number of its received and output parameters cannot be changed. Otherwise, it will affect the normal operation of the workflow computation task.
 
-# Algorithm Introduction
+# Resource Management Algorithm
 We introduce the details of the task offloading and scheduling algorithms supported in EdgeWorkflow currently. In the edge computing environment, given the three different layers of resources, viz. end device layer, Edge server layer and cloud server layer, a task offloading strategy is required first to determine which level or levels of resources will be used for task computation, before the task scheduling algorithm determines the order of tasks running on the allocated resources. (PDF link: https://github.com/ISEC-AHU/EdgeWorkflow/blob/156ca0a71313bdf19490fce6356e525e8c986f84/The%20Details%20of%20Offloading%20and%20Scheduling%20Algorithms.pdf).
 
 
@@ -236,7 +233,7 @@ FCFS:  First come, first served (FCFS) scheduling algorithm is the simplest sche
 RoundRobin:  the principle of the RoundRobin scheduling algorithm is to allocate the execution requests from the task to the internal server in turn, starting from 1 to N(the number of internal servers), and then start the cycle again. The advantage of the algorithm is its simplicity, it does not need to record the state of all the current connections, so it is a stateless scheduling. Suppose there is a group of N servers, S = {S1, S2... Sn}, an indicator variable I represents the last selected server ID. The variable I is initialized to N minus 1.
 
 
-# Introduction to Scientific Workflow
+# Supported Scientific Workflow
 
 The EdgeWorkflow system support various kinds of standard scientific workflow and user's customized workflow. The standard scientific workflow includes Montage, CyberShake, Epigenomics, Inspiral, Sipht.
 
