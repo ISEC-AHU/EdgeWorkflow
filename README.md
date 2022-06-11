@@ -125,7 +125,6 @@ We often use the `nohup command &` command form to launch background programs su
  nohup java -jar xxxx.jar &
 ~~~
 
-+++
 
 # Introduction
 
